@@ -1,0 +1,14 @@
+.list {
+  width: 600px;
+  margin: 50px auto;
+}
+.list-title {
+  font-weight: bold;
+}
+.list-item,
+.list-title {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 50px;
+}
+/*# sourceMappingURL=index.css.map */

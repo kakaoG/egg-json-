@@ -1,0 +1,12 @@
+.list {
+  width: 600px;
+  margin: 50px auto;
+  &-title {
+    font-weight: bold;
+  }
+  &-item, &-title {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 50px;
+  }
+}

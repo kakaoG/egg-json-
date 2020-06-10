@@ -1,0 +1,22 @@
+<html>
+<head>
+    <title>list</title>
+    <link rel="stylesheet" href="../public/assets/style/index.css">
+</head>
+<body>
+<div class="list">
+    <div class="list-title">
+        <div class="th">姓名</div>
+        <div class="th">年龄</div>
+        <div class="th">性别</div>
+    </div>
+    <% for(var i=0;i<data.length;i++) {%>
+    <div class="list-item">
+        <div class="td"><%=data[i].name%></div>
+        <div class="td"><%=data[i].age%></div>
+        <div class="td"><%=data[i].sex === 0?'男':'女'%></div>
+    </div>
+    <% } %>
+</div>
+</body>
+</html>
